@@ -8,7 +8,7 @@ def main():
     st.write("### Developer: Muhammad Shayan Imran")
 
     app_mode = st.sidebar.selectbox("Choose the app mode", ["Converter", "Quiz"])
-
+    
     if app_mode == "Converter":
         run_converter()
     elif app_mode == "Quiz":
